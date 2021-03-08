@@ -1,1 +1,1 @@
-# An academic project app for a typical espresso machine , which made using Android Studio.
+# Android app for a typical espresso machine.
