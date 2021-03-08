@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="Espresso App"
+            android:textAlignment="center"
+            android:textColor="#782F18"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="113dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:srcCompat="@drawable/coffee" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/titleSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/settings_title"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/selectLangText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/select_language_text"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buyCoffeeBtn" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/englishBtn"
+                    android:layout_width="80dp"
+                    android:layout_height="59dp"
+                    app:srcCompat="@drawable/gb" />
+
+                <TextView
+                    android:id="@+id/englishText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/muli_bold"
+                    android:text="@string/english_text"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="75dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/greekBtn"
+                    android:layout_width="80dp"
+                    android:layout_height="59dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/selectLangText"
+                    app:layout_constraintVertical_bias="0.011"
+                    app:srcCompat="@drawable/gr_selected" />
+
+                <TextView
+                    android:id="@+id/greekText"
+                    android:layout_width="79dp"
+                    android:layout_height="19dp"
+                    android:fontFamily="@font/muli_bold"
+                    android:text="@string/greek_text"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/voiceHelpText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/help_with_voice_text"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/switchConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/switch_text"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:theme="@style/SwitchTheme" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

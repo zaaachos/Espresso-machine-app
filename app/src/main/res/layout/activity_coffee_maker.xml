@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="Espresso App"
+            android:textAlignment="center"
+            android:textColor="#782F18"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/SelectedCoffeeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amatic_sc_bold"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/howManyShotsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/select_dose_text"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/linearborder"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/selectionsId"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/singleMeasureBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:checked="true"
+                    android:fontFamily="@font/muli_bold"
+                    android:text="@string/dose_text"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/doubleMeasureBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:fontFamily="@font/muli_bold"
+                    android:text="@string/dose_text2"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/full_spoon" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/full_spoon" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/full_spoon" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/how_much_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/how_much_water_text"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/linearborder"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/mlText"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="25 mL"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/mLSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:max="75"
+                android:progressDrawable="@drawable/custom_seek_bar"
+                android:splitTrack="false"
+                android:thumb="@drawable/water_drop"
+                android:tickMark="@drawable/custom_tickmarks"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/mugPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/percent25" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/startBrewBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/changeconfirm"
+            android:fontFamily="@font/muli_bold"
+            android:lineSpacingExtra="8sp"
+            android:text="@string/start_text"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

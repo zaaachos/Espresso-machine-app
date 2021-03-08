@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Espresso App</string>
+    <string name="settings_title">Interface Settings</string>
+    <string name="select_language_text">Select Interface Language </string>
+    <string name="greek_text">GREEK</string>
+    <string name="english_text">ENGLISH</string>
+    <string name="help_with_voice_text">Help with Voice Commands?</string>
+    <string name="switch_text">Activation</string>
+    <string name="confirm_text">CONFIRM</string>
+    <string name="back_text">CANCEL</string>
+    <string name="menu_que_text">How could I serve you?</string>
+    <string name="coffee">COFFEE</string>
+    <string name="my_favourites">FAVORITES</string>
+    <string name="stock_text">MY MACHINE</string>
+    <string name="settings_text">SETTINGS</string>
+    <string name="what_coffee">Which coffee do you want?</string>
+    <string name="others_tiext">Others</string>
+    <string name="levels_text">The levels right now</string>
+    <string name="out_of_stock_text">Did you run out of coffee?</string>
+    <string name="buy_coffee_text">BUY COFFEE</string>
+    <string name="favor_text">The list with your favorites</string>
+    <string name="add_text">Press the button to add a new favorite.</string>
+    <string name="how_much_water_text">Quantity</string>
+    <string name="dose_text">Single</string>
+    <string name="dose_text2">Double</string>
+    <string name="select_dose_text">Shot</string>
+    <string name="start_text">START</string>
+    <string name="user_data">Data Entry</string>
+    <string name="hint_name">Favorite\'s name</string>
+    <string name="prosthiki">ADD</string>
+    <string name="save_coffee_text">SAVE COFFEE</string>
+    <string name="stores_title_text">Coffee shops</string>
+    <string name="press_maps_text">Press the map to see the nearby coffee shops</string>
+    <string name="monthly_text">Monthly Coffee Consumption</string>
+    <string name="accept_changes">Save Settings</string>
+    <string name="monthly_consumption_title">Monthly Coffee Consumption</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="august">August</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="mute_text">Mute Sound</string>
+    <string name="done_text">READY</string>
+    <string name="accept_changes_text">Accept Changes</string>
+    <string name="water">WATER</string>
+    <string name="milk">MILK</string>
+    <string name="water_or_milk">Drink Selection</string>
+    <string name="water_or_milk_amount">Quantity</string>
+    <string name="yes_text">YES</string>
+    <string name="no_text">NO</string>
+    <string name="drink_text">Drink: </string>
+    <string name="dose_selected_text">Shot: </string>
+    <string name="mili_text">ML: </string>
+    <string name="questionToStart_text">Do you want to start the drink production?</string>
+    <string name="save_milk_water_text">SAVE</string>
+
+    <string-array name="store1">
+        <item>LOUMIDI</item>
+        <item>Address: Aiolou 106, Athens</item>
+        <item>Tel: 2103214426</item>
+    </string-array>
+
+</resources>

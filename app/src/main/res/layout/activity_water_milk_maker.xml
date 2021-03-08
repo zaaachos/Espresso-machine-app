@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="Espresso App"
+            android:textAlignment="center"
+            android:textColor="#782F18"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/selectDrinkTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/water_or_milk"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/water_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:background="@drawable/linearborder">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/water"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/muli_bold"
+                android:gravity="center"
+                android:text="@string/water"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/milk_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/milk" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/muli_bold"
+                android:gravity="center"
+                android:text="@string/milk"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/how_much_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/water_or_milk_amount"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/linearborder"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/mlText"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="25 mL"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/mLSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:max="75"
+                android:progressDrawable="@drawable/custom_seek_bar"
+                android:splitTrack="false"
+                android:thumb="@drawable/water_drop" android:tickMark="@drawable/custom_tickmarks" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/mugPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/water25" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/milkwaterBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/changeconfirm"
+            android:fontFamily="@font/muli_bold"
+            android:lineSpacingExtra="8sp"
+            android:text="@string/start_text"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

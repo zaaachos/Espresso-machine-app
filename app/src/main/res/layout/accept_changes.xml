@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli_bold"
+        android:text="@string/accept_changes_text"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/drink_text"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rofimaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/muli_bold"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/dose_selected_text"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/dosiText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/muli_bold"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/mili_text"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/mlTextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/muli_bold"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/questionToStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli_bold"
+        android:text="@string/questionToStart_text"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/cancelBtn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:background="@drawable/backshape"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/muli_bold"
+                android:text="@string/no_text"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/cancel" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/OKBtn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:background="@drawable/changeconfirm"
+            android:layout_marginStart="20dp">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/muli_bold"
+                android:text="@string/yes_text"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/tick" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

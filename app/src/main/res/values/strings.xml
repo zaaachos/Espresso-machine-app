@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Espresso App</string>
+    <string name="settings_title">Ρυθμίσεις Διεπαφής</string>
+    <string name="select_language_text"> Επιλογή Γλώσσας Διεπαφής </string>
+    <string name="greek_text">ΕΛΛΗΝΙΚΑ</string>
+    <string name="english_text">ΑΓΓΛΙΚΑ</string>
+    <string name="help_with_voice_text"> Βοήθεια με φωνητικές εντολές;</string>
+    <string name="switch_text">Ενεργοποίηση</string>
+    <string name="confirm_text">ΟΛΟΚΛΗΡΩΣΗ</string>
+    <string name="back_text">ΑΚΥΡΩΣΗ</string>
+    <string name="menu_que_text">Πώς θα μπορούσα να σας εξυπηρετήσω;</string>
+    <string name="coffee">ΚΑΦΈΣ</string>
+    <string name="my_favourites">ΑΓΑΠΗΜΈΝΑ</string>
+    <string name="stock_text">Η ΜΗΧΑΝΉ ΜΟΥ</string>
+    <string name="settings_text">ΡΥΘΜΊΣΕΙΣ</string>
+    <string name="what_coffee">Τι καφέ θα θέλατε;</string>
+    <string name="others_tiext">Άλλα</string>
+    <string name="levels_text">Οι στάθμες αυτή τη στιγμή</string>
+    <string name="out_of_stock_text">Σου τελείωσε ο καφές;</string>
+    <string name="buy_coffee_text">ΑΓΟΡΑ ΚΑΦΕ</string>
+    <string name="favor_text">Η λίστα με τα αγαπημένα σου</string>
+    <string name="add_text">Πάτα το κουμπί για να προσθέσεις νέο αγαπημένο.</string>
+    <string name="how_much_water_text">Ποσότητα</string>
+    <string name="dose_text">Μονή</string>
+    <string name="dose_text2">Διπλή</string>
+    <string name="select_dose_text">Δόση</string>
+    <string name="start_text">ΈΝΑΡΞΗ</string>
+    <string name="user_data">Εισαγωγή Στοιχείων</string>
+    <string name="hint_name">Όνομα αγαπημένου</string>
+    <string name="prosthiki">ΠΡΟΣΘΗΚΗ</string>
+    <string name="save_coffee_text">ΑΠΟΘΗΚΕΥΣΗ ΚΑΦΕ</string>
+    <string name="stores_title_text">Καταστήματα πώλησης καφέ</string>
+    <string name="press_maps_text">Πατήστε στον χάρτη για να δείτε τα κοντινότερα σημεία πώλησης</string>
+    <string name="monthly_text">Μηνιαία Κατανάλωση Καφέ</string>
+    <string name="accept_changes">Αποθήκευση Ρυθμίσεων</string>
+    <string name="monthly_consumption_title">Μηνιαία Κατανάλωση καφέ</string>
+    <string name="january">Ιανουάριος</string>
+    <string name="february">Φεβρουάριος</string>
+    <string name="march">Μάρτιος</string>
+    <string name="april">Απρίλιος</string>
+    <string name="may">Μάιος</string>
+    <string name="june">Ιούνιος</string>
+    <string name="july">Ιούλιος</string>
+    <string name="september">Σεπτέμβριος</string>
+    <string name="october">Οκτώβριος</string>
+    <string name="august">Αύγουστος</string>
+    <string name="november">Νοέμβριος</string>
+    <string name="december">Δεκέμβριος</string>
+    <string name="mute_text">Σίγαση Μουσικής</string>
+    <string name="done_text">ΕΤΟΙΜΟΣ</string>
+    <string name="accept_changes_text">Αποδοχή Επιλογών</string>
+    <string name="water">ΝΕΡΟ</string>
+    <string name="milk">ΓΑΛΑ</string>
+    <string name="water_or_milk">Επιλογή ροφήματος</string>
+    <string name="water_or_milk_amount">Ποσότητα</string>
+    <string name="yes_text">ΝΑΙ</string>
+    <string name="no_text">ΟΧΙ</string>
+    <string name="drink_text">Ρόφημα: </string>
+    <string name="dose_selected_text">Δόση: </string>
+    <string name="mili_text">ML: </string>
+    <string name="questionToStart_text">Θέλετε να ξεκινήσει η προετοιμασία του ροφήματος;</string>
+    <string name="save_milk_water_text">ΑΠΟΘΗΚΕΥΣΗ</string>
+
+
+    <string-array name="store1">
+        <item>ΚΑΦΕΚΟΠΤΕΙΑ ΛΟΥΜΙΔΗ</item>
+        <item>Διεύθυνση: Αιόλου 106, Αθήνα</item>
+        <item>Τηλέφωνο: 2103214426</item>
+    </string-array>
+
+    <string-array name="store2">
+        <item>Coffee Island</item>
+        <item>Διεύθυνση: Πανεπιστημίου 39, Αθήνα</item>
+        <item>Τηλέφωνο: 2112147559</item>
+    </string-array>
+
+    <string-array name="store3">
+        <item>KAYA</item>
+        <item>Διεύθυνση: Βουλής 7, Αθήνα</item>
+        <item>Τηλέφωνο: 2130284305</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".CoffeeMonthlyConsumptionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="370dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/muli_bold"
+                android:text="Espresso App"
+                android:textAlignment="center"
+                android:textColor="#782F18"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            app:srcCompat="@drawable/coffee" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/monthly_consumption_title"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <ListView
+            android:id="@+id/allMonthsListViewId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="20.0sp">
+
+
+        </ListView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

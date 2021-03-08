@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="370dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/muli_bold"
+                android:text="Espresso App"
+                android:textAlignment="center"
+                android:textColor="#782F18"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            app:srcCompat="@drawable/coffee" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+
+        <ProgressBar
+            android:layout_centerInParent="true"
+            android:id="@+id/progress_bar"
+            style="?android:progressBarStyleHorizontal"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:indeterminateOnly="false"
+            android:progress="0"
+            android:progressDrawable="@drawable/circularprogressbar" />
+
+        <TextView
+            android:id="@+id/percentageId"
+            android:layout_width="370dp"
+            android:layout_height="75dp"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/muli_bold"
+            android:text="0%"
+            android:textAlignment="center"
+            android:textColor="#782F18"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/playerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/sound" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/mute_text"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".SelectCoffeeForFavorites">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="370dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/muli_bold"
+                android:text="Espresso App"
+                android:textAlignment="center"
+                android:textColor="#782F18"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            app:srcCompat="@drawable/coffee" />
+
+        <TextView
+            android:id="@+id/textMenuId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="@string/what_coffee"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="443dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:rowCount="4">
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/esspressoBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/muli_bold"
+                        android:text="Espresso"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="89dp"
+                        android:layout_height="74dp"
+                        android:src="@drawable/espresso" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/capuccinoBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="155dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/muli_bold"
+                        android:text="Cappuccino"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="89dp"
+                        android:layout_height="74dp"
+                        android:src="@drawable/cappuccino" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/macchiatoBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/muli_bold"
+                        android:text="Macchiato"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="28sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="89dp"
+                        android:layout_height="74dp"
+                        android:src="@drawable/macchiato" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/latteBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="157dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/muli_bold"
+                        android:text="Latte"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="28sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="77dp"
+                        android:layout_height="66dp"
+                        android:src="@drawable/latte" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/americanoBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="157dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/muli_bold"
+                        android:text="Americano"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="104dp"
+                        android:layout_height="62dp"
+                        android:src="@drawable/americano" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/othersBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="157dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/muli_bold"
+                        android:text="@string/others_tiext"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="62dp"
+                        android:src="@drawable/water" />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
