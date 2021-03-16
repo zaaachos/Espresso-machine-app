@@ -18,5 +18,10 @@ Below, you can see each fragment how it looks like, in the final version.
 
 ![Frag](https://github.com/zaaachos/Espresso-machine-app/blob/master/fragments_images/Screenshot_5.png)
 
+4. Coffee Options. The coffee level in the mug can change by different amount selection.
+
+![Frag](https://github.com/zaaachos/Espresso-machine-app/blob/master/fragments_images/Screenshot_6.png)
+
+![Frag](https://github.com/zaaachos/Espresso-machine-app/blob/master/fragments_images/Screenshot_7.png)
 
 
