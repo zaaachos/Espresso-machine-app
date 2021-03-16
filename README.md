@@ -14,3 +14,9 @@ Below, you can see each fragment how it looks like, in the final version.
 
 ![Frag](https://github.com/zaaachos/Espresso-machine-app/blob/master/fragments_images/Screenshot_4.png)
 
+3. Coffee Selection
+
+![Frag](https://github.com/zaaachos/Espresso-machine-app/blob/master/fragments_images/Screenshot_5.png)
+
+
+
