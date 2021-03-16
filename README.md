@@ -71,6 +71,6 @@ In this project we used tools from these repos
 4. [Kotlin Coroutines](https://github.com/Kotlin/kotlinx.coroutines)
 
 ## Authors
-@ChrisTrakas
-@zaaachos
+[@ChrisTrakas](https://github.com/ChrisTrakas)
+[@zaaachos](https://github.com/zaaachos)
 
