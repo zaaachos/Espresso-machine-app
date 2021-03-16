@@ -63,4 +63,14 @@ Below, you can see each fragment how it looks like, in the final version.
 
 ![Frag](https://github.com/zaaachos/Espresso-machine-app/blob/master/fragments_images/Screenshot_16.png)
 
+## Acknowledgement
+In this project we used tools from these repos
+1. [Google GSON](https://github.com/google/gson)
+2. [WaveLoadingView](https://github.com/tangqi92/WaveLoadingView)
+3. [CardView](https://github.com/codepath/android_guides/wiki/Using-the-CardView)
+4. [Kotlin Coroutines](https://github.com/Kotlin/kotlinx.coroutines)
+
+## Authors
+@ChrisTrakas
+@zaaachos
 
