@@ -1,6 +1,8 @@
 # Espresso App
 
-<img align="center" src="https://github.com/zaaachos/Espresso-machine-app/blob/master/app/src/main/ic_launcher-playstore.png" alt="App Icon" />
+<p align="center">
+  <img src="https://github.com/zaaachos/Espresso-machine-app/blob/master/app/src/main/ic_launcher-playstore.png" alt="App Icon" />
+</p>
 
 An academic project for Human Computer Interaction course.
 
