@@ -6,11 +6,11 @@ In this project we tried to make a new updated interface of a typical non-smart 
 Below, you can see each fragment how it looks like, in the final version.
 
 ## Fragments
-First install you can observe this box where "Voice Commands is writen on. If the user press this button, automatically Voice Assistant will be enabled.
+1. After first installation you can observe this box where "Voice Commands is writen on. If the user press this button, automatically Voice Assistant will be enabled.
 
 ![Frag](https://github.com/zaaachos/Espresso-machine-app/blob/master/fragments_images/Screenshot_3.png)
 
-Home Menu
+2. Home Menu
 
 ![Frag](https://github.com/zaaachos/Espresso-machine-app/blob/master/fragments_images/Screenshot_4.png)
 
