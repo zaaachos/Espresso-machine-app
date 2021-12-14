@@ -4,7 +4,7 @@
   <img src="https://github.com/zaaachos/Espresso-machine-app/blob/master/app/src/main/ic_launcher-playstore.png" alt="App Icon" />
 </p>
 
-An academic project for Human Computer Interaction course.
+An academic project for "Human-Computer Interaction" course.
 
 ## Description
 In this project we tried to make a new updated interface of a typical non-smart home espresso machine. We added new functions, which current one does not have. Moreover, this application addresses the visually impaired people, with voice assistant.
